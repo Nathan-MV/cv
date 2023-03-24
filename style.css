@@ -1,0 +1,17 @@
+.minha-foto {
+    width: 200px;
+    height: auto;
+    /* display: block;
+    margin: 0 auto; */
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+
+.linkedin-logo {
+    width: 25px;
+    height: auto;
+}
