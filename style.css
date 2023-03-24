@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.header {
+    display: flex;
+}
+
+.header-text {
+    margin-left: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.minha-foto {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.github-logo, .linkedin-logo {
+    vertical-align: middle;
+    height: auto;
+}
+
+.github-logo {
+    width: 15px;
+}
+
+.linkedin-logo {
+    width: 25px;
+}
+
+hr {
+    height: 3px;
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+    background-color: black;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .table-container {
+        flex-direction: column;
+    }
+}
