@@ -57,3 +57,7 @@ hr {
         flex-direction: column;
     }
 }
+
+.vertical-line {
+    border-left: 3px solid black;
+}
