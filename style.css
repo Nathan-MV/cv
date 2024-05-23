@@ -58,6 +58,10 @@ hr {
     }
 }
 
+h3 {
+    margin-left: 10px;
+}
+
 .vertical-line {
     border-left: 3px solid black;
 }
