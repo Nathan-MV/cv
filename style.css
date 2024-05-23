@@ -11,15 +11,26 @@ body {
     margin-left: 20px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 th,
 td {
     padding: 8px;
     text-align: left;
+    border-right: 1px solid black;
 }
 
 .minha-foto {
     width: 200px;
     height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .minha-foto {
+        width: 150px;
+    }
 }
 
 p {
@@ -41,8 +52,6 @@ p {
 
 hr {
     height: 3px;
-    border: none;
-    border-top: 2px solid #ccc;
     margin: 20px 0;
     background-color: black;
 }
