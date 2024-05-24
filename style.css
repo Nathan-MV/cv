@@ -7,7 +7,7 @@ body {
     display: flex;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .header {
         display: block;
     }
@@ -17,7 +17,7 @@ body {
     margin-left: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     h1, h2, h3, h4 {
         text-align: center;
     }
@@ -39,7 +39,7 @@ td {
     height: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .minha-foto {
         width: 75%;
         display: block;
@@ -53,7 +53,7 @@ p {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     p {
         text-align: center;
     }
@@ -83,7 +83,7 @@ hr {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .table-container {
         display: block;
     }
