@@ -7,20 +7,8 @@ body {
     display: flex;
 }
 
-@media only screen and (max-width: 480px) {
-    .header {
-        display: block;
-    }
-}
-
 .header-text {
     margin-left: 20px;
-}
-
-@media only screen and (max-width: 480px) {
-    h1, h2, h3, h4 {
-        text-align: center;
-    }
 }
 
 table {
@@ -39,24 +27,9 @@ td {
     height: auto;
 }
 
-@media only screen and (max-width: 480px) {
-    .minha-foto {
-        width: 75%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 p {
     margin-left: 20px;
     margin-right: auto;
-}
-
-@media only screen and (max-width: 480px) {
-    p {
-        text-align: center;
-    }
 }
 
 .github-logo, .linkedin-logo {
@@ -83,12 +56,6 @@ hr {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 480px) {
-    .table-container {
-        display: block;
-    }
-}
-
 h3 {
     margin-left: 10px;
     margin-right: auto;
@@ -96,4 +63,25 @@ h3 {
 
 .vertical-line {
     border-left: 1px solid black;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        display: block;
+    }
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+    .minha-foto {
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        text-align: center;
+    }
+    .table-container {
+        display: block;
+    }
 }
