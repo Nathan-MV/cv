@@ -72,6 +72,10 @@ h3 {
     h1, h2, h3, h4 {
         text-align: center;
     }
+    th,
+    td {
+        font-size: 14px;
+    }
     .minha-foto {
         width: 75%;
         display: block;
