@@ -89,3 +89,10 @@ h3 {
         display: block;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #888888;
+    color: black;
+}
