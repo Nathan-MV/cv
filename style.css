@@ -1,98 +1,149 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(#FEFEFE, #888888);
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: linear-gradient(to bottom, #fdfdfd, #e0e0e0);
+    color: #222;
+    margin: 0;
+    padding: 20px;
 }
 
 .header {
     display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .header-text {
     margin-left: 20px;
 }
 
-table {
-    border-collapse: collapse;
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+    margin: 0;
+    color: #333;
 }
 
-th,
-td {
-    padding: 8px;
-    text-align: left;
-    border-right: 1px solid black;
-}
-
-.minha-foto {
-    width: 200px;
-    height: auto;
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 p {
     margin-left: 20px;
     margin-right: auto;
+    line-height: 1.5;
 }
 
-.github-logo, .linkedin-logo {
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    color: #0047ab;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.minha-foto {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.github-logo,
+.linkedin-logo {
     vertical-align: middle;
     height: auto;
+    margin-left: 5px;
 }
 
 .github-logo {
-    width: 15px;
+    width: 16px;
 }
 
 .linkedin-logo {
-    width: 25px;
+    width: 24px;
 }
 
 hr {
     height: 1px;
-    margin: 20px 0;
-    background-color: black;
+    margin: 30px 0;
+    border: none;
+    background-color: #bbb;
 }
 
 .table-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-h3 {
-    margin-left: 10px;
-    margin-right: auto;
+    overflow-x: auto;
 }
 
 .vertical-line {
-    border-left: 1px solid black;
-}
-
-@media only screen and (max-width: 480px) {
-    .header {
-        display: block;
-    }
-    h1, h2, h3, h4 {
-        text-align: center;
-    }
-    th,
-    td {
-        font-size: 12px;
-    }
-    .minha-foto {
-        width: 75%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    p {
-        text-align: center;
-    }
-    .table-container {
-        display: block;
-    }
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+    margin-left: 10px;
 }
 
 footer {
     text-align: center;
-    padding: 5px;
-    background-color: #888888;
-    color: black;
+    padding: 10px 0;
+    background-color: #ddd;
+    color: #333;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        text-align: center;
+    }
+
+    .minha-foto {
+        width: 70%;
+        margin: 0 auto 20px auto;
+    }
+
+    p {
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    th,
+    td {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
 }
